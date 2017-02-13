@@ -1,0 +1,10 @@
+/* AUTEUR Navarna */ 
+\echo "destruction des table" 
+
+DROP TABLE IF EXISTS bu CASCADE; 
+DROP TABLE IF EXISTS document CASCADE;
+DROP TABLE IF EXISTS exemplaire CASCADE; 
+DROP TABLE IF EXISTS usager CASCADE;
+DROP TABLE IF EXISTS reservation ;
+DROP TABLE IF EXISTS emprunt ; 
+DROP TABLE IF EXISTS dateJ ; 
